@@ -1,0 +1,115 @@
+/* import Trueno font */
+@import url(../fonts/TruenoBlk.woff);
+
+body {
+  background-image: url(../img/background.svg);
+  background-size: cover;
+  min-height: 100vh;
+  color: #fff !important;
+}
+
+div.synergy {
+  border-radius: 30px;
+  background: rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+  width: 100%;
+  max-width: 460px;
+  padding: 0 30px;
+  text-align: center;
+}
+
+div.text-top {
+  font-family: "TruenoBlk";
+  font-size: 36.38px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  padding-bottom: 18px;
+  padding-top: 31px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+div.text-bottom {
+  font-family: "TruenoBlk";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  padding-bottom: 18px;
+  padding-top: 31px;
+}
+
+div.para-text {
+  border-radius: 30px;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 33px 33px;
+  text-align: center;
+}
+
+div.para-text p {
+  font-family: IBM Plex Sans;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+div.project-box {
+  gap: 20px;
+  padding: 40px;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 4px 64px 0px rgba(0, 0, 0, 0.15);
+}
+
+/* set the flex direction to reverse in odd child .project-box */
+div.project-box:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+
+div.project-box .project-img img {
+  height: 240px;
+  width: 240px;
+  border-radius: 20px;
+}
+
+div.project-box .project-text h3 {
+  font-family: 4u-Ganganee;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+div.project-box .project-text p {
+  font-family: IBM Plex Sans;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  padding-top: 25px;
+}
+
+
+div.footer{
+  border-radius: 30px;
+  background: rgba(0, 0, 0, 0.30);
+  padding: 30px 30px;
+  
+}
+
+div.footer h3{
+  font-family: IBM Plex Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+div.footer div.footer-bottom{
+  padding-top: 10px;
+}
+
+div.social-media{
+  gap: 20px;
+}
